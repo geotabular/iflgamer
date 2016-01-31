@@ -35,7 +35,7 @@
                 {
                     "type":"xml",
                     "provider": "Game Trailers",
-                    "providerUrl": "http://www.gametrailers.com/java",
+                    "providerUrl": "http://www.gametrailers.com",
                     "url":"http://rss.gametrailers.com/news/0.xml",
                     "newsListPath": "responseData.feed.entries",
                     "titlePath": "title",
@@ -46,6 +46,36 @@
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.gametrailers.com",
 					"rankIndex": 3
+                },
+				 {
+                    "type":"xml",
+                    "provider": "IGN",
+                    "providerUrl": "http://www.ign.com",
+                    "url":"http://feeds.ign.com/ign/all",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "publishedDate":{
+                      "path":"publishedDate"
+                    },
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.ign.com",
+					"rankIndex": 4
+                },
+				 {
+                    "type":"xml",
+                    "provider": "The Escapist Magazine",
+                    "providerUrl": "http://www.escapistmagazine.com",
+                    "url":"http://rss.escapistmagazine.com/news/0.xml",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "publishedDate":{
+                      "path":"publishedDate"
+                    },
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.escapistmagazine.com",
+					"rankIndex": 4
                 }
     ]
 }
