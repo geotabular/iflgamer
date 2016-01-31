@@ -25,7 +25,8 @@
       <ul class="news">
         <li ng-repeat="item in allNewsList | filter:query | orderBy:orderProp:ascendingProp" class="thumbnail">
              <img class="favIcon" ng-src="{{item.favIconUrl}}"/>
-             &nbsp;<a target="blank" href="{{item.url}}">{{item.title}}</a><i class="glyphicon glyphicon-share-alt"/>
+             &nbsp;<a target="blank" href="{{item.url}}">{{item.title}}</a>
+			 <i class="new-tab-link glyphicon glyphicon-share-alt"/>
              <br><small>{{item.summary}}</small>
              <br><small class="provider">Source:&nbsp;<a target="blank" href="{{item.providerUrl}}">{{item.provider}}</a></small>
              <br><small class="provider">Published:&nbsp;{{item.publishedDate.prefix}}{{item.publishedDate.time}}&nbsp;{{item.publishedDate.date}}</small>
