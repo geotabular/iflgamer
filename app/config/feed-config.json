@@ -7,8 +7,8 @@
                       "multiplier": 1000
                     },
                     "provider": "Reddit",
-                    "providerUrl": "https://www.reddit.com/r/java",
-                    "url":"https://www.reddit.com/r/java/.json",
+                    "providerUrl": "https://www.reddit.com/r/gaming",
+                    "url":"https://www.reddit.com/r/gaming/.json",
                     "newsListPath": "data.children",
                     "titlePath": "data.title",
                     "urlPath": "data.url",
@@ -19,9 +19,9 @@
                 },
                 {
                     "type":"xml",
-                    "provider": "Java World",
-                    "providerUrl": "http://www.javaworld.com/",
-                    "url":"http://www.javaworld.com/index.rss",
+                    "provider": "Gamespot",
+                    "providerUrl": "http://www.gamespot.com/",
+                    "url":"http://www.gamespot.com/feeds/news",
                     "newsListPath": "responseData.feed.entries",
                     "titlePath": "title",
                     "urlPath": "link",
@@ -29,14 +29,14 @@
                       "path":"publishedDate"
                     },
                     "summaryPath": "contentSnippet",
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javaworld.com",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.gamespot.com",
 					"rankIndex": 2
                 },
                 {
                     "type":"xml",
-                    "provider": "DZone: Java Zone",
-                    "providerUrl": "http://www.dzone.com/java",
-                    "url":"http://feeds.dzone.com/java",
+                    "provider": "Game Trailers",
+                    "providerUrl": "http://www.gametrailers.com/java",
+                    "url":"http://rss.gametrailers.com/news/0.xml",
                     "newsListPath": "responseData.feed.entries",
                     "titlePath": "title",
                     "urlPath": "link",
@@ -44,9 +44,9 @@
                       "path":"publishedDate"
                     },
                     "summaryPath": "contentSnippet",
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.dzone.com",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.gametrailers.com",
 					"rankIndex": 3
-                },
+                }/*,
                 {
                     "type":"xml",
                     "provider": "Developer.com",
@@ -123,7 +123,7 @@
 					"rankIndex": 8
                 }
                 
-                
+                */
                 
                 
                 
