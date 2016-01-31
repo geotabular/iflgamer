@@ -1,23 +1,6 @@
 {
     "feeds": [
                 {
-                    "type":"json",
-                    "publishedDate":{
-                      "path":"data.created_utc",
-                      "multiplier": 1000
-                    },
-                    "provider": "Reddit",
-                    "providerUrl": "https://www.reddit.com/r/gaming",
-                    "url":"https://www.reddit.com/r/gaming/.json",
-                    "newsListPath": "data.children",
-                    "titlePath": "data.title",
-                    "urlPath": "data.url",
-                    "summaryPath": "data.domain",
-                    "exclusions": [{"path":"data.domain","value":"self.java"}],
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.reddit.com",
-					"rankIndex": 1
-                },
-                {
                     "type":"xml",
                     "provider": "Gamespot",
                     "providerUrl": "http://www.gamespot.com/",
