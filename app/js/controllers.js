@@ -11,7 +11,7 @@ iflJavaControllers
         'json' : $http.get,
         'xml' : readXmlFeed.parseFeed
     };
-    $http.get("config/feed-config.json").success(function(data){
+    $http.get("config/feed-config.json?cache_bust=" + Date.now()).success(function(data){
        var pendingFeeds = data.feeds.length;
        var tries = 0;
        $.each(data.feeds, function(index, feedConfig){
